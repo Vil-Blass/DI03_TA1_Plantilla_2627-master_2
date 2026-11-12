@@ -1,0 +1,105 @@
+{
+  "planHash": "300b2aef29d70e82097adacfb79000d8e3290cca8d4f372a8fa45c490489c145",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-11-09T21:25:52.6002275Z",
+  "retryCount": 0,
+  "resetBaseline": true,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "angular-production-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E DI03_TA01_2627@0.0.1 build\r\n\u003E ng build\r\n\r\n\u001B[33m\u003E\u001B[39m Building...\r\n\u001B[32m\u221A\u001B[39m Building...\r\n\u001B[1mInitial chunk files\u001B[22m  \u001B[2m | \u001B[22m\u001B[1mNames\u001B[22m                \u001B[2m | \u001B[22m \u001B[1mRaw size\u001B[22m\u001B[2m | \u001B[22m\u001B[1mEstimated transfer size\u001B[22m\r\n\u001B[32mchunk-GZ7WDBP6.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m\u001B[36m265.67 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m71.39 kB\u001B[39m\r\n\u001B[32mmain-KFSG2L5J.js\u001B[39m     \u001B[2m | \u001B[22m\u001B[2mmain\u001B[22m                 \u001B[2m | \u001B[22m \u001B[36m80.29 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m18.14 kB\u001B[39m\r\n\u001B[32mstyles-DI5BGN4B.css\u001B[39m  \u001B[2m | \u001B[22m\u001B[2mstyles\u001B[22m               \u001B[2m | \u001B[22m \u001B[36m46.30 kB\u001B[39m\u001B[2m | \u001B[22m                \u001B[36m5.43 kB\u001B[39m\r\n\u001B[32mchunk-MNA3GPKV.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m \u001B[36m36.59 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m12.74 kB\u001B[39m\r\n\u001B[32mpolyfills-TDCRLYKL.js\u001B[39m\u001B[2m | \u001B[22m\u001B[2mpolyfills\u001B[22m            \u001B[2m | \u001B[22m \u001B[36m34.65 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m11.33 kB\u001B[39m\r\n\u001B[32mchunk-36Y5DD7B.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m \u001B[36m10.16 kB\u001B[39m\u001B[2m | \u001B[22m                \u001B[36m2.63 kB\u001B[39m\r\n\u001B[32mchunk-3XSHMB4G.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m  \u001B[36m9.03 kB\u001B[39m\u001B[2m | \u001B[22m                \u001B[36m3.34 kB\u001B[39m\r\n\u001B[32mchunk-YJ5TA4PT.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m  \u001B[36m5.74 kB\u001B[39m\u001B[2m | \u001B[22m                \u001B[36m2.13 kB\u001B[39m\r\n\u001B[32mchunk-LDT5MBSS.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m  \u001B[36m1.14 kB\u001B[39m\u001B[2m | \u001B[22m              \u001B[36m499 bytes\u001B[39m\r\n\u001B[32mchunk-2NIBOUWM.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m\u001B[36m998 bytes\u001B[39m\u001B[2m | \u001B[22m              \u001B[36m998 bytes\u001B[39m\r\n\u001B[32mchunk-HAISJDTL.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m\u001B[36m976 bytes\u001B[39m\u001B[2m | \u001B[22m              \u001B[36m976 bytes\u001B[39m\r\n\u001B[32mchunk-BLPQ5APE.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m\u001B[36m932 bytes\u001B[39m\u001B[2m | \u001B[22m              \u001B[36m932 bytes\u001B[39m\r\n\u001B[32mchunk-JHI3MBHO.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m\u001B[36m928 bytes\u001B[39m\u001B[2m | \u001B[22m              \u001B[36m928 bytes\u001B[39m\r\n\u001B[32mchunk-GWWQA5DH.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m\u001B[36m833 bytes\u001B[39m\u001B[2m | \u001B[22m              \u001B[36m833 bytes\u001B[39m\r\n\u001B[32mchunk-I547WOKC.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m\u001B[36m544 bytes\u001B[39m\u001B[2m | \u001B[22m              \u001B[36m544 bytes\u001B[39m\r\n\u001B[32mchunk-NMFL75IO.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m \u001B[36m99 bytes\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m99 bytes\u001B[39m\r\n\r\n\u001B[1m \u001B[22m                    \u001B[2m | \u001B[22m\u001B[1mInitial total\u001B[22m        \u001B[2m | \u001B[22m\u001B[1m494.88 kB\u001B[22m\u001B[2m | \u001B[22m              \u001B[1m132.95 kB\u001B[22m\r\n\r\n\u001B[1mLazy chunk files\u001B[22m     \u001B[2m | \u001B[22m\u001B[1mNames\u001B[22m                \u001B[2m | \u001B[22m \u001B[1mRaw size\u001B[22m\u001B[2m | \u001B[22m\u001B[1mEstimated transfer size\u001B[22m\r\n\u001B[32mchunk-CKGNAVXN.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2mhome-page\u001B[22m            \u001B[2m | \u001B[22m\u001B[36m301.77 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m75.75 kB\u001B[39m\r\n\u001B[32mchunk-JXGJT2HA.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2mion-datetime_3-entry\u001B[22m \u001B[2m | \u001B[22m \u001B[36m75.14 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m14.56 kB\u001B[39m\r\n\u001B[32mchunk-E5X7AQEY.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2mion-item_8-entry\u001B[22m     \u001B[2m | \u001B[22m \u001B[36m55.18 kB\u001B[39m\u001B[2m | \u001B[22m                \u001B[36m7.24 kB\u001B[39m\r\n\u001B[32mchunk-NCSUDPXX.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2m-\u001B[22m                    \u001B[2m | \u001B[22m \u001B[36m48.13 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m15.44 kB\u001B[39m\r\n\u001B[32mchunk-OJ5F5ZQS.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2mion-textarea-entry\u001B[22m   \u001B[2m | \u001B[22m \u001B[36m47.21 kB\u001B[39m\u001B[2m | \u001B[22m                \u001B[36m5.77 kB\u001B[39m\r\n\u001B[32mchunk-SKJE7WGE.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2mion-select_3-entry\u001B[22m   \u001B[2m | \u001B[22m \u001B[36m43.58 kB\u001B[39m\u001B[2m | \u001B[22m                \u001B[36m7.42 kB\u001B[39m\r\n\u001B[32mchunk-ONVIMHN7.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2mion-modal-entry\u001B[22m      \u001B[2m | \u001B[22m \u001B[36m42.55 kB\u001B[39m\u001B[2m | \u001B[22m               \u001B[36m10.10 kB\u001B[39m\r\n\u001B[32mchunk-YPAO2ZFH.js\u001B[39m    \u001B[2m | \u001B[22m\u001B[2mion-app_8-entry\u001B[22m      \u001B[2m |\n\u2026[truncated]",
+        "durationMs": 3757
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": false,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 1,
+        "outputSample": "\r\n\u003E DI03_TA01_2627@0.0.1 test\r\n\u003E ng test --watch=false --browsers=ChromeHeadless\r\n\r\n- Generating browser application bundles (phase: setup)...\r\n\u221A Browser application bundle generation complete.\r\n\u001B[32m09 11 2026 22:25:49.115:INFO [karma-server]: \u001B[39mKarma v6.4.4 server started at http://localhost:9876/\r\n\u001B[32m09 11 2026 22:25:49.117:INFO [launcher]: \u001B[39mLaunching browsers ChromeHeadless with concurrency unlimited\r\n\u001B[32m09 11 2026 22:25:49.134:INFO [launcher]: \u001B[39mStarting browser ChromeHeadless\r\n\u001B[91m09 11 2026 22:25:49.138:ERROR [launcher]: \u001B[39mCannot start ChromeHeadless\r\n\tCan not find the binary C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\r\n\tPlease set env variable CHROME_BIN\r\n\u001B[91m09 11 2026 22:25:49.138:ERROR [launcher]: \u001B[39mChromeHeadless stdout: \r\n\u001B[91m09 11 2026 22:25:49.138:ERROR [launcher]: \u001B[39mChromeHeadless stderr: \r\n\u221A Browser application bundle generation complete.\r\n\u221A Browser application bundle generation complete.\r\n",
+        "durationMs": 4180,
+        "testResults": {
+          "testFramework": "jasmine",
+          "runnerDetectedFrom": "package_json",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      },
+      {
+        "name": "home-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\u0022es\u0022\u003E\n\n\u003Chead\u003E\n  \u003Cscript type=\u0022module\u0022 src=\u0022/@vite/client\u0022\u003E\u003C/script\u003E\n\n  \u003Cmeta charset=\u0022utf-8\u0022/\u003E\n  \u003Ctitle\u003EIonic App\u003C/title\u003E\n\n  \u003Cbase href=\u0022/\u0022/\u003E\n\n  \u003Cmeta name=\u0022color-scheme\u0022 content=\u0022light dark\u0022/\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\u0022/\u003E\n  \u003Cmeta name=\u0022format-detection\u0022 content=\u0022telephone=no\u0022/\u003E\n  \u003Cmeta name=\u0022msapplication-tap-highlight\u0022 content=\u0022no\u0022/\u003E\n\n  \u003Clink rel=\u0022icon\u0022 type=\u0022image/png\u0022 href=\u0022assets/icon/favicon.png\u0022/\u003E\n\n  \u003C!-- add to homescreen for ios --\u003E\n  \u003Cmeta name=\u0022mobile-web-app-capable\u0022 content=\u0022yes\u0022/\u003E\n  \u003Cmeta name=\u0022apple-mobile-web-app-status-bar-style\u0022 content=\u0022black\u0022/\u003E\n\u003Clink rel=\u0022stylesheet\u0022 href=\u0022styles.css\u0022\u003E\u003C/head\u003E\n\n\u003Cbody\u003E\n  \u003Capp-root\u003E\u003C/app-root\u003E\n\u003Cscript src=\u0022polyfills.js\u0022 type=\u0022module\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022main.js\u0022 type=\u0022module\u0022\u003E\u003C/script\u003E\u003C/body\u003E\n\n\u003C/html\u003E\n\n--- server output ---\n\r\n\u003E DI03_TA01_2627@0.0.1 start\r\n\u003E ng serve --host 127.0.0.1 --port 4200\r\n\r\n\u001B[33m\u003E\u001B[39m Building...\r\n\u001B[32m\u221A\u001B[39m Building...\r\n\u001B[1mInitial chunk files\u001B[22m  \u001B[2m | \u001B[22m\u001B[1mNames\u001B[22m        \u001B[2m | \u001B[22m \u001B[1mRaw size\u001B[22m\r\n\u001B[32mstyles.css\u001B[39m           \u001B[2m | \u001B[22m\u001B[2mstyles\u001B[22m       \u001B[2m | \u001B[22m \u001B[36m57.36 kB\u001B[39m\u001B[2m | \u001B[22m\r\n\u001B[32mmain.js\u001B[39m              \u001B[2m | \u001B[22m\u001B[2mmain\u001B[22m         \u001B[2m | \u001B[22m  \u001B[36m2.69 kB\u001B[39m\u001B[2m | \u001B[22m\r\n\u001B[32mpolyfills.js\u001B[39m         \u001B[2m | \u001B[22m\u001B[2mpolyfills\u001B[22m    \u001B[2m | \u001B[22m\u001B[36m143 bytes\u001B[39m\u001B[2m | \u001B[22m\r\n\r\n\u001B[1m \u001B[22m                    \u001B[2m | \u001B[22m\u001B[1mInitial total\u001B[22m\u001B[2m | \u001B[22m \u001B[1m60.19 kB\u001B[22m\r\n\r\n\u001B[1mLazy chunk files\u001B[22m     \u001B[2m | \u001B[22m\u001B[1mNames\u001B[22m        \u001B[2m | \u001B[22m \u001B[1mRaw size\u001B[22m\r\n\u001B[32mhome.page-SRWP6FED.js\u001B[39m\u001B[2m | \u001B[22m\u001B[2mhome-page\u001B[22m    \u001B[2m | \u001B[22m \u001B[36m18.42 kB\u001B[39m\u001B[2m | \u001B[22m\r\n\r\nApplication bundle generation complete. [1.261 seconds] - 2026-11-09T21:25:51.972Z\r\n\r\nWatch mode enabled. Watching for file changes...\r\nNOTE: Raw file sizes do not reflect development server per-request transformations.\r\n\u001B[2m22:25:52\u001B[22m \u001B[36m\u001B[1m[vite]\u001B[22m\u001B[39m \u001B[90m\u001B[2m(client)\u001B[22m\u001B[39m Re-optimizing dependencies because lockfile has changed\r\n\u001B[2m22:25:52\u001B[22m \u001B[36m\u001B[1m[vite]\u001B[22m\u001B[39m \u001B[34m\u001B[2m(ssr)\u001B[22m\u001B[39m Re-optimizing dependencies because lockfile has changed\r\n  \u001B[32m\u279C\u001B[39m  \u001B[1mLocal\u001B[22m:   \u001B[36mhttp://127.0.0.1:\u001B[1m4200\u001B[22m/\u001B[39m\r\n",
+        "durationMs": 2856
+      }
+    ],
+    "executions": [
+      {
+        "source": "angular-production-build",
+        "resolvedExecutable": "D:\\Node\\npm.CMD",
+        "args": [
+          "run",
+          "build"
+        ],
+        "cwd": "C:\\Users\\jeffr\\Desktop\\DAM\\Desarrollo de Interfaz\\DI03_TA1_Plantilla_2627-master_1",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "D:\\Node\\npm.CMD",
+        "args": [
+          "test",
+          "--",
+          "--watch=false",
+          "--browsers=ChromeHeadless"
+        ],
+        "cwd": "C:\\Users\\jeffr\\Desktop\\DAM\\Desarrollo de Interfaz\\DI03_TA1_Plantilla_2627-master_1",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "home-route-serves",
+        "resolvedExecutable": "D:\\Node\\npm.CMD",
+        "args": [
+          "run",
+          "start",
+          "--",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "4200"
+        ],
+        "cwd": "C:\\Users\\jeffr\\Desktop\\DAM\\Desarrollo de Interfaz\\DI03_TA1_Plantilla_2627-master_1",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

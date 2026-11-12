@@ -1,0 +1,102 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1419 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+13 TL
+(CONVERSACION DEL CHAT) Tj
+T*
+(Grafica de lineas: media de goles por partido) Tj
+T*
+() Tj
+T*
+(USUARIO) Tj
+T*
+(Solicito comentar los elementos a cambiar del enunciado: crear una grafica de lineas con) Tj
+T*
+(la media de goles por partido redondeada a dos decimales. Renombrar canvasGoles a) Tj
+T*
+(canvasLinea y renderGoles a renderMedia; quitar borderSkipped y anadir pointRadius,) Tj
+T*
+(tension y fill.) Tj
+T*
+() Tj
+T*
+(ASISTENTE) Tj
+T*
+(Indico los cambios en el componente: actualizar la referencia del canvas y el metodo;) Tj
+T*
+(calcular goles/partidos y redondear a dos decimales; cambiar Chart.js a lineas;) Tj
+T*
+(sustituir las opciones del dataset; actualizar titulo, tooltip y eje Y.) Tj
+T*
+() Tj
+T*
+(USUARIO) Tj
+T*
+(Pidio crear los nuevos elementos y dejar comentados los existentes.) Tj
+T*
+() Tj
+T*
+(ASISTENTE) Tj
+T*
+(Implemente la grafica de lineas activa y deje comentados el canvas y el metodo de barras) Tj
+T*
+(anteriores. La grafica muestra la media por partido, redondeada a dos decimales, e) Tj
+T*
+(incluye pointRadius, tension y fill. La compilacion TypeScript se completo) Tj
+T*
+(correctamente.) Tj
+T*
+() Tj
+T*
+(USUARIO) Tj
+T*
+(Pidio el PDF del chat.) Tj
+T*
+() Tj
+T*
+(ASISTENTE) Tj
+T*
+(Pregunte si queria abrir el PDF del proyecto o crear una transcripcion de la) Tj
+T*
+(conversacion.) Tj
+T*
+() Tj
+T*
+(USUARIO) Tj
+T*
+(Eligio crear una transcripcion.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1781
+%%EOF
